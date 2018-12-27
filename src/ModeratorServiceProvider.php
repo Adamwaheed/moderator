@@ -6,7 +6,7 @@
  * Time: 3:16 PM
  */
 
-namespace Atolon\RequestWorkflow;
+namespace Atolon\Moderator;
 
 
 use Illuminate\Support\ServiceProvider;
@@ -18,7 +18,7 @@ class ModeratorServiceProvider extends ServiceProvider
     {
 
 
-        $this->loadMigrationsFrom(__DIR__.'/migrations');
+        $this->loadMigrationsFrom(__DIR__ . '/migrations');
 
     }
 

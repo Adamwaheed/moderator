@@ -16,7 +16,7 @@ class CreateRwfRequestsTable extends Migration
         Schema::create('rwf_requests', function (Blueprint $table) {
             $table->increments('id');
             $table->string('data_type',200);
-            $table->integer('data_id',500);
+            $table->integer('data_id');
             $table->string('event',10);
             $table->string('status',200);
             $table->timestamps();
